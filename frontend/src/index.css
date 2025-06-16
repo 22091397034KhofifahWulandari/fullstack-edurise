@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+@import "tailwindcss";
+
+@keyframes modalFadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", "Manrope", sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav img {
+  height: 56px;
+}
+
+nav a {
+  margin: 0 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+nav a:hover {
+  color: #3375cc;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.user-icon {
+  height: 36px;
+  border-radius: 50%;
+  transition: 0.2s ease;
+}
+
+.user-icon:hover {
+  filter: brightness(90%);
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: #ffffff;
+  padding: 40px 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 56px;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer .branding {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+footer .branding img {
+  height: 40px;
+}
+
+footer .branding h3 {
+  font-size: 18px;
+}
+
+footer .column {
+  flex: 1;
+  min-width: 200px;
+}
+
+footer .column h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+footer .column p,
+footer .column a {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+footer .column a:hover {
+  color: #3375cc;
+  font-weight: 500;
+}
+
+footer .socials {
+  padding-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+footer .socials a i {
+  font-size: 24px;
+  color: #666;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+footer .socials a i:hover {
+  color: #3375cc;
+  transform: scale(1.2);
+}
+
+footer .copyright {
+  text-align: center;
+  width: 100%;
+  font-size: 12px;
+  color: #999;
+}
+
+/* ========== GLOBAL STYLING ========== */
+
+/* ++++++++++ Profile Page ++++++++++ */
+
+/* Background Color Utilities */
+.bg-edurise-blue {
+  background-color: #3375cc;
+}
+
+.bg-edurise-red {
+  background-color: #ff3037;
+}
+
+.bg-edurise-lightBlue {
+  background-color: #ebf1fa;
+}
+
+.bg-edurise-white {
+  background-color: #ffffff;
+}
+
+/* Text Color Utilities */
+.text-edurise-darkBlue {
+  color: #17355c;
+}
+
+.text-edurise-navBlue {
+  color: #295ea3;
+}
+
+.text-edurise-gray {
+  color: #575858;
+}
+
+.text-edurise-darkGray {
+  color: #333333;
+}
+
+.text-edurise-textGray {
+  color: #5e5a5a;
+}
+
+.text-edurise-lightGray {
+  color: #bbbcbc;
+}
+
+/* Border Color Utilities */
+.border-edurise-blue {
+  border-color: #3375cc;
+}
+
+.border-edurise-red {
+  border-color: #ff3037;
+}
+
+.border-edurise-gray {
+  border-color: #575858;
+}
+
+/* ++++++++++ Eduprep Tools ++++++++++ */
