@@ -1,23 +1,25 @@
+import "../index.css";
+
 const Footer = () => {
   return (
     <footer>
       <div className="column">
         <div className="branding">
           <img src="/img/logo.svg" alt="Logo" />
-          <h3>EDURISE</h3>
+          <h2>EDU<span>RISE</span></h2>
         </div>
         <p>
           Solusi lengkap informasi beasiswa dan edukasi, membantu Anda
           merencanakan masa depan pendidikan yang gemilang.
         </p>
         <div className="socials">
-          <a href="#">
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer">
             <i className="fa-brands fa-github"></i>
           </a>
-          <a href="#">
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
             <i className="fa-brands fa-linkedin"></i>
           </a>
-          <a href="#">
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
             <i className="fa-brands fa-x-twitter"></i>
           </a>
         </div>

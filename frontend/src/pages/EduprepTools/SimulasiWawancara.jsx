@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Header from "../../components/Navbar";
 import Footer from "../../components/Footer";
 
@@ -38,8 +37,10 @@ const SimulasiWawancara = () => {
                 di bawah ini untuk bergabung dengan server Discord dan ikuti
                 sesi wawancara secara langsung.
               </p>
-              <Link
-                href="#" 
+              <a
+                href="https://discord.gg/zZ2u6ZKu"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-block no-underline font-bold transition-colors duration-300"
                 style={{
                   backgroundColor: '#3375cc',
@@ -52,7 +53,7 @@ const SimulasiWawancara = () => {
                 onMouseOut={(e) => e.target.style.backgroundColor = '#3375cc'}
               >
                 Gabung
-              </Link>
+              </a>
             </div>
             <div style={{ flex: '1', textAlign: 'right' }}>
               <img

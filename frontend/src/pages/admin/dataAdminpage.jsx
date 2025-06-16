@@ -11,8 +11,8 @@ const DataAdmin = () => {
                     <div className="container mx-auto px-4 h-full flex items-center justify-between">
                         {/* Logo */}
                         <Link to="/adminhome" className="flex items-center mr-10">
-                            <div className="w-[84px] h-[84px] rounded-full overflow-hidden flex items-center justify-center bg-white shadow-sm">
-                                <img src="/img/eduriselanding/Ellipse 1.png" alt="EduRise Logo" className="w-[70px] h-[70px] object-contain" />
+                            <div className="w-[84px] h-[84px] rounded-full overflow-hidden flex items-center justify-center">
+                                <img src="/img/eduriselanding/Ellipse 1.png" alt="EduRise Logo" className="w-[50px] h-[50px] object-contain" />
                             </div>
                         </Link>
 
@@ -33,10 +33,10 @@ const DataAdmin = () => {
                         <div className="hidden lg:flex lg:items-center lg:ml-5 flex-grow" id="navbarNav">
                             <ul className="flex gap-10 items-center">
                                 <li>
-                                    <Link to="/adminhome" className="px-4 py-2.5 font-medium text-[#3375CC] !text-[#3375CC] rounded-md"><u>HOME</u></Link>
+                                    <Link to="/adminhome" className="px-4 py-2.5 font-bold text-[#3375CC]"><u>HOME</u></Link>
                                 </li>
                                 <li>
-                                    <Link to="/data-admin" className="px-4 py-2.5 font-medium text-[#3375CC] !text-[#3375CC] rounded-md bg-blue-100/30 transition duration-200"><u>ADMIN</u></Link>
+                                    <Link to="/data-admin" className="px-4 py-2.5 font-bold text-[#3375CC]"><u>ADMIN</u></Link>
                                 </li>
                             </ul>
                         </div>
@@ -45,7 +45,7 @@ const DataAdmin = () => {
                         <div>
                             <Link to="/loginadmin">
                                 <button
-                                    className="w-[67px] h-[36px] flex items-center justify-center rounded-lg bg-[#3375CC] text-white font-semibold text-sm shadow-md hover:bg-[#295ea3] hover:-translate-y-0.5 transition duration-200"
+                                    className="w-[67px] h-[36px] flex items-center justify-center rounded-lg bg-[#3375CC] text-white font-semibold text-sm shadow-md hover:bg-[#295ea3] hover:-translate-y-0.3 transition duration-200"
                                 >
                                     Logout
                                 </button>
@@ -59,7 +59,7 @@ const DataAdmin = () => {
                 <div
                     className="flex flex-col items-center w-[1181px] h-[797px] p-[30px] gap-6 flex-shrink-0 rounded-lg border border-[#3375CC] bg-[#F9FAFB] overflow-y-auto"
                 >
-                    <h2 className="text-2xl font-bold text-[#3375CC] mb-4 mt-8">Edit Data Admin</h2>
+                    <h2 className="text-2xl font-bold text-[#dda853] mb-4 mt-8">Edit Data <span className="text-[#3375cc] font-bold">Admin</span></h2>
 
                     <form className="w-full max-w-[800px] px-8 py-6 space-y-6">
                         <div className="mb-4">

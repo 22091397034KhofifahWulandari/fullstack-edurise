@@ -64,7 +64,7 @@ const AdminLogin = () => {
                     <Link className="font-bold" to="/">HOME</Link>
                   </li>
                   <li>
-                    <Link className="font-bold text-[#3375CC] !text-[#3375CC] !underline" to="/login">LOGIN PAGE</Link>
+                    <Link className="font-bold text-[#3375CC] underline" to="/login">LOGIN PAGE</Link>
                   </li>
                 </ul>
               </div>

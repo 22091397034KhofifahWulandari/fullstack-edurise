@@ -94,7 +94,7 @@ const ArtikelAdmin = () => {
             </header>
 
             {/* Sidebar navigation */}
-            <nav className="bg-[#1e3a8a] !bg-[#1e3a8a] text-white p-6 pt-[10px] fixed top-0 left-0 h-screen w-[250px] overflow-y-auto z-40">
+            <nav className="bg-[#1e3a8a] text-white p-6 pt-[10px] fixed top-0 left-0 h-screen w-[250px] overflow-y-auto z-40">
                 <div className="space-y-6 text-white">
                     {/* Main Menu Group */}
                     <div>

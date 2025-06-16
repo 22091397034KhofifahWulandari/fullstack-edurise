@@ -88,12 +88,11 @@ function LihatHasil() {
       <main className="max-w-[1200px] mx-auto px-[60px] py-[80px]">
         <section className="text-center mb-[60px]">
           <h1 className="text-[36px] font-bold leading-[1.3] !mb-[20px]">
-            <span className="text-[#3375cc]">Hasil Penilaian Esai</span>
-            <br />
-            <span className="text-[#dda853]">Anda</span>
+            <span className="text-[#3375cc]">Penilaian Esai </span>
+            <span className="text-[#dda853]">Anda Sudah Siap</span>
           </h1>
           <p className="text-[16px] text-[#575858] leading-[1.5] max-w-[800px] mx-auto mb-[40px]">
-            Lihat feedback dan skor untuk esai yang telah Anda kirim.
+            Cek skor dan feedback yang telah disiapkan untuk membantu anda memperbaiki esai.
           </p>
         </section>
 
@@ -105,7 +104,7 @@ function LihatHasil() {
               className="w-[24px] h-[24px] mr-[10px]"
             />
             <h2 className="text-[24px] font-bold text-[#575858]">
-              Esai Anda
+              Esai Text Editor
             </h2>
           </div>
 
@@ -123,7 +122,7 @@ function LihatHasil() {
               to={`/hasil-feedback/${id}`}
               className="bg-[#3375cc] hover:bg-[#0286e6] text-white rounded-[5px] px-[30px] py-[10px] text-[16px] font-bold inline-block transition-colors duration-300 !no-underline"
             >
-              Lihat Hasil Feedback
+              Lihat Hasil
             </Link>
           ) : (
             <div className="min-h-[50px] p-[15px] text-[12px] text-[#575858] flex items-center justify-center">

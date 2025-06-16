@@ -7,11 +7,6 @@
   to { opacity: 1; transform: translateY(0); }
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
 * {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
@@ -63,7 +58,13 @@ nav a {
 
 nav a:hover {
   color: #3375cc;
-  font-weight: 700;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+nav a.active {
+  color: #3375cc;
+  font-weight: bold;
   text-decoration: underline;
 }
 
@@ -98,6 +99,17 @@ footer .branding {
 
 footer .branding img {
   height: 40px;
+}
+
+footer .branding h2 {
+  font-size: 18px;
+  color: #3375cc;
+  font-weight: bold;
+}
+
+footer .branding h2 span {
+  font-weight: bold;
+  color: #dda853;
 }
 
 footer .branding h3 {

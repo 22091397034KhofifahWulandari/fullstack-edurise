@@ -102,7 +102,7 @@ const EditPendaftar = () => {
                         </div>
                         <h4 className="m-0 italic font-bold ml-2">EDURISE ADMIN</h4>
                     </div>
-                    <Link to="/adminhome" className="w-10 h-10 rounded-full bg-[#3375CC] text-white !text-white flex items-center justify-center">
+                    <Link to="/adminhome" className="w-10 h-10 rounded-full bg-[#3375CC] text-white flex items-center justify-center">
                         <User size={24} />
                     </Link>
                 </div>
